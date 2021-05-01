@@ -87,7 +87,7 @@ nav li:hover a {
     grid-row: 2;
     align-items: center;
     justify-content: center;
-    font-size: 400%;
+    font-size: 100%;
 }
 
 .welcome-section h3 {
@@ -95,7 +95,7 @@ nav li:hover a {
     grid-row: 3;
     align-items: center;
     justify-content: center;
-    font-size: 200%;
+    font-size: 100%;
 }
 
 
