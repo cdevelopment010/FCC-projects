@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link href="Styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- User Story: #1 -->
+    <header id="header">
+        <!-- User Story: #2 -->
+        <img id="header-img" class="header-img" alt="LOGO" src="">
+        </img>
+        <!-- User Story: #3 -->
+        <nav id="nav-bar">
+            <ul>
+                <!-- User Story: #4 -->
+                <!-- User Story: #5 -->
+                <li><a href="#selling-points" class="nav-link">Home</a></li>
+                <li><a href="#product-area" class="nav-link">Price</a></li>
+                <li><a href="#video" class="nav-link">Video</a></li>
+                <li><a href="#email" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <main>
+        <div class="header-space-links" id="selling-points"></div>
+        
+        
+        <ul class="selling-points" >
+            <h1>What we deliver</h1>
+            <li>
+               <i class="fa fa-thumbs-o-up"></i> Top quality material
+            </li>
+            <li>
+                <i class="fa fa-car"></i> Super fast delivery
+            </li>
+            <li>
+                <i class="fa fa-check"></i> Personalisation options available
+            </li>
+        </ul>
+
+        <div class="header-space-links" id="product-area"></div>
+
+            <div class="product-grid">
+                <h1>Our Products</h1>
+            <div class="product-item">
+                <img src="img/Notebook1.jpg" alt="First option of products">
+                <p>$$$</p>
+                <button>Buy</button>
+            </div>
+            <div class="product-item">
+                <img src="img/Notebook2.jpg" alt="Second option of products">
+                <p>$$$</p>
+                <button>Buy</button>
+            </div>
+        </div>
+
+        <!-- User Story: #6 -->
+        <div id="video" class="header-space-links"></div>
+        <div class="video-section" >
+            <p>Video content here.</p>
+        </div>
+
+        <!-- User Story: #7 [form]-->
+        <!-- User Story: #12 [action] -->
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <!-- User Story: #8 [email with id email]-->
+            <!-- User Story: #9 [email placeholder]-->
+            <!-- User Story: #10 [email HTML5 validation] -->
+            <label for="email">Questions? Contact us below!</label>
+            <input type="email" name="email" id="email" required placeholder="Enter your email here">
+            <!-- User Story: #11 -->
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
