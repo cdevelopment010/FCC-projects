@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  monospace, Helvetica, Arial, sans-serif;
+}
+body {
+    background-image: url('img/coding3-large.jpg');
+    object-fit: none;
+}
+.container {
+    max-width: 60%;
+    margin: auto;
+}
+header {
+    color: white;
+}
+@media (max-width: 1080px) {
+    .container {
+        max-width: 90%;
+        margin: auto;
+    } 
+    
+}
+
+@media screen and (min-width: 500px) {
+    header {
+        color: rgba(0,0,0,0.8);
+    }
+}
+
+header, main {
+    align-items: center;
+    text-align: center;
+    padding: 0 5vw;
+}
+
+
+
+
+form {
+    margin-top: 30px;
+    padding: 20px 40px;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgba(0,0,0,0.6);
+    color: #FFF;
+    text-align: left;
+    border-radius: 25px;
+}
+
+.form-item {
+    padding-bottom: 25px;
+    display:grid; 
+    grid-template-columns: auto;
+}
+
+form label, form p {
+    padding: 10px 0;
+    text-indent: 0;
+}
+
+input, select {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    /* margin-top: 25px; */
+    border-radius: 25px;
+    color: white;
+    background-color: rgba(0,67,255,0.8);
+    border: none;
+    padding: 10px;
+    font-size: large;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: rgba(0,67,255,0.8);
+}
+
+.col2 {
+    display: inline-block;
+    padding: 0;
+}
+
+.col2 label {
+    padding-left: 20px;
+}
+
