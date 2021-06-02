@@ -1,0 +1,78 @@
+
+:root {
+    /* Set up colours */
+    --primary-color: #5286ff;
+}
+
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.db-color {
+    color: var(--primary-color);
+}
+.db-bk-color {
+    background-color: var(--primary-color);
+}
+
+main {
+    /* background-color: var(--primary-color); */
+    background-image: url("/img/pexels-photomix-company-1001897.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.landing-page {
+    max-width: 1080px;
+    margin: auto;
+    padding: 10px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.landing-page h1 {
+    grid-row: 2;
+}
+.landing-page h2 {
+    grid-row: 3;
+}
+
+.landing-form {
+    grid-row: 5;
+    display: grid;
+    grid-row-gap: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+.landing-form input, .landing-form button {
+    padding: 10px;
+    border-radius: 25px;
+}
+
+form button {
+    border: none;
+    color: white;
+}
+
+form button:hover {
+    border: none;
+    color: var(--primary-color);
+    background-color: white;
+}
+
+
+/* For larger screens */
+
+@media screen and (min-width: 700px) {
+    .landing-page h1 {
+        font-size: 100px;
+    }
+}
